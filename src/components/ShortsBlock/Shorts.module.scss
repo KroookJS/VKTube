@@ -1,0 +1,24 @@
+.closeSlider{
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  z-index: 1;
+}
+
+.storisWrapper {
+  min-width: 600px;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: 425px) {
+    min-width: 425px;
+  }
+}
+
+.contanerClose{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  z-index: 1002;
+}

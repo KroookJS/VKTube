@@ -1,0 +1,150 @@
+.WrapperForm {
+  background: #fff;
+  color: black;
+  min-width: var(--width-mx);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Wrapper {
+  width: 100%;
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem;
+  border-radius: 30px;
+  @media (min-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    padding: 0.8rem 0;
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+}
+
+.BtnBlock {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+}
+.ImgContainer {
+  background: #91789d1a;
+  border-radius: 20px;
+  border: 1px solid #d59fee1a;
+  margin: 10px auto 20px;
+  padding: 10px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+
+  min-width: 420px;
+
+  box-shadow: var(--shadow-upload);
+}
+.ImgBlock {
+  width: 100%;
+  height: 219px;
+  border-radius: 20px;
+}
+.TitleBlock {
+  color: dimgrey;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.InputButtonBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+//Story
+
+.ButtonDow {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background: blue;
+  padding: 10px 15px;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.BtnIsImage {
+  background: black;
+  border: 2px solid green;
+  width: 200px;
+}
+
+.ContainerAdd {
+  min-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+//Category
+.Tilte {
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+.InputFile {
+  border: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  background: grey;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.InputImage {
+  border: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  background: grey;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: rebeccapurple;
+}
+.InputGif {
+  border: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  background: grey;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: green;
+}
+
+.WrapperFlexColomn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

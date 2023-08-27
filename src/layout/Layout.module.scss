@@ -1,0 +1,24 @@
+.gridFaunder {
+  @media (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+.gridOne {
+  @media (min-width: 1000px) {
+    grid-area: 1 / 1 / 6 / 2;
+    position: fixed;
+    left: -10px;
+    top: -10px;
+    width: 20%;
+  }
+}
+.gridTwo {
+  @media (min-width: 1000px) {
+    grid-area: 1 / 2 / 6 / 6;
+    padding-top: 15px;
+  }
+}

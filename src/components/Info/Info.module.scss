@@ -1,0 +1,120 @@
+.Wrapper {
+  position: relative;
+  min-width: 600px;
+
+  margin-top: 1.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 1rem;
+
+  @media (min-width: 767px) {
+    margin-top: 2.5rem;
+    /* grid-template-columns: minmax(100px, 400px) 1fr; */
+    align-items: center;
+    gap: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 3rem;
+    /* grid-template-columns: minmax(400px, 600px) 1fr; */
+    min-width: 1240px;
+    margin: 0 auto;
+  }
+}
+
+.InfoImage {
+  display: block;
+  border-radius: var(--radii);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.InfoTitle {
+  margin: 0 auto;
+  padding: 0 0 0.5rem 0.5rem;
+  font-weight: var(--fw-normal);
+  text-align: start;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ListGroup {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
+
+.List {
+  list-style: none;
+  margin: 0 0.3rem;
+  padding: 0;
+}
+
+.ListItem {
+  line-height: 1.8;
+  padding: 0.3rem;
+
+  & > b {
+    font-weight: var(--fw-bold);
+  }
+}
+
+.ModelStyles {
+  padding: 4px 10px;
+  border: 1px solid var(--colors-btn);
+  border-radius: 6px;
+  opacity: 0.5;
+  margin: 0 0 0 10px;
+  color: var(--colors-btn);
+  cursor: pointer;
+}
+.TagsStyles {
+  color: var(--colors-btn);
+  margin: 0 0 0 6px;
+}
+
+.ImageBlock {
+  position: relative;
+  min-width: 600px;
+  /* margin: 0 auto; */
+}
+
+.IconBlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 14px;
+  background: #8080806b;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 797px) {
+    top: 30%;
+  }
+  @media (min-width: 1020px) {
+    top: 40%;
+  }
+}
+
+.UserFolowBlock {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 4px;
+}
+
+.BlockInfoShadow {
+  filter: drop-shadow(153px -199px 123px #71aaeb);
+}

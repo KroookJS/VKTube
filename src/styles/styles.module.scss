@@ -1,0 +1,32 @@
+.blockDescCategoryAndModal {
+  margin: 13px auto;
+  @media (min-width: 1000px) {
+    min-width: 73%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.flBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.backBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  width: 100%;
+
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-bold);
+
+  color: var(--colors-bg);
+  border: 2px solid var(--colors-btn-border);
+  border-radius: var(--radii);
+
+  color: #474242;
+  background-image: linear-gradient(90deg, #cfecd0, #e40014);
+}

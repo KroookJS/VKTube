@@ -1,0 +1,20 @@
+.navBarModelConrainer {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  position: fixed;
+  bottom: 14px;
+  left: 2%;
+  background: #192033;
+  padding: 0 4px;
+  z-index: 100;
+  box-shadow: 0 4px 20px #eb855b59;
+  padding: 0 1.5rem;
+  border-radius: 25px;
+
+  @media (min-width: 767px) {
+    display: none;
+  }
+}

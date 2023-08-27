@@ -1,0 +1,44 @@
+.paginationBtnNext {
+  padding: 0 1rem;
+
+  box-shadow: var(--shadow);
+  border-radius: var(--radii);
+
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  cursor: pointer;
+
+  color: white;
+  min-width: 200px;
+
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px auto;
+  background-image: linear-gradient(90deg, #f8d265f2, #ffa31b);
+}
+.paginationBtnBack {
+  padding: 0 1rem;
+
+  box-shadow: var(--shadow);
+  border-radius: var(--radii);
+
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  cursor: pointer;
+
+  color: white;
+  min-width: 200px;
+
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px auto;
+  background-image: linear-gradient(270deg, #080808f2, #987b4f);
+}

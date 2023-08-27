@@ -1,0 +1,51 @@
+.wrapperFavorite {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0 0 5.5rem 0;
+  width: 100%;
+  border-radius: 30px;
+
+  @media (min-width: 767px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2.5rem 0;
+  }
+
+  @media (min-width: 1000px) {
+    width: 84%;
+    gap: 15px;
+  }
+
+  @media (min-width: 1024px) {
+    min-width: 1240px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 0.5rem;
+    gap: 0.4rem;
+  }
+}
+
+.wraaperDeskTop {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0 0 5.5rem 0;
+  width: 100%;
+  border-radius: 30px;
+
+  @media (min-width: 767px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2.5rem 0;
+  }
+
+  @media (min-width: 1000px) {
+    width: 84%;
+    gap: 15px;
+  }
+
+  @media (min-width: 1024px) {
+    min-width: 1240px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 0.5rem;
+    gap: 0.4rem;
+  }
+}

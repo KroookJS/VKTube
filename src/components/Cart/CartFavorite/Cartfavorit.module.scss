@@ -1,0 +1,96 @@
+.WrapperArticle {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: car(--colors-ui-base);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 10px;
+  border-bottom: 1px solid #ffffff17;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  border-radius: 25px;
+  max-height: 391px;
+  padding: 8px 0;
+  grid-template-columns: repeat(1, 1fr);
+  @media (min-width: 1024px) {
+    padding: 0rem 0.5rem;
+    max-height: 534px;
+  }
+}
+
+.CardTitle {
+  margin: 0 13px;
+  /* font-size: var(--fs-md); */
+  font-weight: var(--fw-middle);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #fff;
+}
+
+.CardDesk {
+  margin: 0;
+  font-size: var(--fs-md);
+  font-weight: var(--fw-me);
+  color: gray;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.CartAvar {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+}
+
+.CartBlock {
+  padding: 0.5rem 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartBlockDirection {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #28272b; */
+}
+
+.CartBlockDisplay {
+  flex-direction: unset;
+}
+
+.PlayBnt {
+  min-width: 79px;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  border-radius: 15px;
+  color: var(--colors-bg-cart);
+  color: var(--colors-bg-cart);
+  background-image: var(--colors-line);
+}
+
+.CartHeader {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.CartHeaderContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+}
+
+.CartHeaderName {
+  padding: 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
